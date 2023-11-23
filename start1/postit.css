@@ -1,0 +1,69 @@
+
+body {
+    font-family: 'Indie Flower';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+main{
+width: 100%;
+height: 100vh;  
+background-color: grey;
+}
+#postContenitore {
+    line-height: 150px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-basis: 100;
+    padding-left: 5%;
+    padding-right: 5%;
+   
+}
+.yellowPost {
+    padding-top: 5%;
+    font-size: 80px;
+    flex-basis: 500px;
+    height: 350px;
+    margin-top: 7%;
+    margin-bottom: 20px;
+    background-color: lightyellow;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+    transform: rotate(-2deg);  
+}
+
+.greenPost {
+    padding-top: 5%;
+    font-size: 80px;
+    flex-basis: 500px;
+    height: 350px;
+    margin-top: 7%;
+    background-color: lightgreen;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+    transform: rotate(2deg);
+}
+.purplePost {
+    padding-top: 5%;
+    font-size: 80px;
+    flex-basis: 500px;
+    height: 350px;
+    margin-top: 7%;
+    background-color: purple;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+    transform: rotate(-2deg);
+}
+.yellowPost p:first-child{
+    font-weight: 800;
+}
+.greenPost p:first-child{
+    font-weight: 800;
+}
+.purlplePost p:first-child{
+    font-weight: 800;
+}
+.yellowPost:hover, .greenPost:hover, .purplePost:hover {
+transform:scale(1.5);
+z-index: 1;
+}
